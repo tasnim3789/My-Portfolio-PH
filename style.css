@@ -1,11 +1,17 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+section{
+    height: 100%;
+}
 h1{
     font-size: 40px;
 }
 .name-color{
     color: darkmagenta;
+}
+h2{
+    font-size: 30px;
 }
 p{
     
@@ -45,4 +51,28 @@ p{
     background-color: cadetblue;
     background: position 100%;
 }
-.experience-area
+.experience-area{
+    background-image: url(img/pic4.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+
+.exp-item{
+    width: 80%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-left: 4px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 40px gray;
+}
+#full-stack-developer{
+    border-left:  7px solid rgb(116, 12, 51);
+}
+
+#baby-stack-developer{
+    border-left:  7px solid rgb(19, 7, 129);
+}
+footer{
+    text-align: center;
+}

@@ -10,17 +10,21 @@ h1{
 p{
     
 }
-section{
+.flexible-continer{
     display:flex;
     margin: 20px;
+
 }
 .half-width{
     width: 100%;
-    padding-left: 3%;
-    padding-top: 2%;
+    padding-left: 9%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    padding-right: 5%;
+    align-self: center;
 }
 .half-width img{
-    width: 50%;
+    width: 80%;
 }
 .link-button{
     text-decoration: none;
@@ -41,3 +45,4 @@ section{
     background-color: cadetblue;
     background: position 100%;
 }
+.experience-area

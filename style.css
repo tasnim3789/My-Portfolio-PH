@@ -11,10 +11,11 @@ p{
     
 }
 section{
-    display: flex;
+    display:flex;
+    margin: 20px;
 }
 .half-width{
-    width: 50%;
+    width: 100%;
     padding-left: 3%;
     padding-top: 2%;
 }
@@ -34,5 +35,9 @@ section{
     background-image: url(img/pic\ 2.png);
     background-repeat: no-repeat;
     background-size:cover;
-    
+
+}
+.dream-big{
+    background-color: cadetblue;
+    background: position 100%;
 }
